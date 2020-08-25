@@ -45,4 +45,4 @@ jobs:
     
     # Deploying
     - name: Deploying App to Surge
-      run: surge ./build covidtracker_arslanali.surge.sh ${{ secrets.SURGE_TOKEN }} 
+      run: surge ./build covidtracker_arslanali1996.surge.sh ${{ secrets.SURGE_TOKEN }} 
