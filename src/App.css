@@ -1,3 +1,41 @@
-.Media {
-  height: 200px;
+.container {
+  display: flex;
+  padding: 50px;
+}
+.chartsWrapper {
+  margin-top: 50px;
+  width: 600px !important;
+  min-width: 200px !important;
+}
+.logo {
+  margin: 20px;
+  /* width: 500px !important; */
+  height: auto;
+}
+.select {
+  margin-bottom: 50px;
+  max-height: 100px;
+  width: 400px;
+  min-width: 200px;
+  text-align: left;
+}
+
+.flag {
+  margin: 5px;
+  width: auto;
+}
+.Confirmed, .Recovered, .Deaths {
+  padding: 5px;
+  text-align: left;
+  min-width: 300px;
+  
+}
+.Confirmed {
+  border-bottom: 8px solid indigo;
+}
+.Recovered {
+  border-bottom: 8px solid green;
+}
+.Deaths {
+  border-bottom: 8px solid red;
 }
